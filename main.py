@@ -5,7 +5,6 @@ from database import SessionLocal,engine
 from sqlalchemy.orm import Session
 from database import engine
 from typing import List
-import requests
 from fastapi import status,HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
